@@ -1,19 +1,7 @@
-import Image from '../images/random.png';
-import ClickCounter from './components/ClickCounter';
+import WordCounter from './components/WordCounter';
 
 const App = () => {
-  const test = 'asdasd';
-
-  return (
-    <>
-      <ClickCounter />
-      <h1>
-        Env: - {process.env.NODE_ENV} {process.env.name} {test}
-      </h1>
-      <img src={Image} alt="test" />
-      <h1>React test s</h1>
-    </>
-  );
+  return <WordCounter />;
 };
 
 export default App;

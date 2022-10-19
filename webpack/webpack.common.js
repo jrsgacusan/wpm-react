@@ -3,7 +3,6 @@ const path = require('path');
 module.exports = {
   entry: {
     main: path.resolve(__dirname, '..', './src/typescript/index.tsx'),
-    components: path.resolve(__dirname, '..', './src/typescript/App.tsx'),
   },
   resolve: {
     extensions: ['.tsx', '.ts', '.js', '.jsx'],
